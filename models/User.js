@@ -5,8 +5,8 @@ const users = []
 const journals = []
 
 class User{
-    constructor({username, hashedPassword}){
-        this.username=username;
+    constructor({email, hashedPassword}){
+        this.email=email;
         this.hashedPassword=hashedPassword;
         this.id= uuidv4();
     }
